@@ -391,13 +391,45 @@
 
 /* 
 +------------------------------------+
-++
++              Numbers               +
 +------------------------------------+
 */
 
+#numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--lightPink);
+    margin: 50px 0;
+}
+
+#numbers-col-1, #numbers-col-2, #numbers-col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#numbers-col-2 {
+    border-left: solid 3px var(--darkPink);
+    border-right: solid 3px var(--darkPink);
+    padding: 0 100px;
+}
+
+.numbers-title {
+    color: var(--darkPink);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px 0 7px 0;
+}
+
+.numbers-text {
+    color: var(--darkGray);
+    font-size: 18px;
+    padding: 7px 0 30px 0;
+}
 
 /* 
 +------------------------------------+
-++
++            we provide              +
 +------------------------------------+
 */
