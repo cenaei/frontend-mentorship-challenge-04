@@ -42,10 +42,6 @@
     color: #252525;
 }
 
-.buttom-spacer {
-    margin: 100px 0;
-}
-
 /* Start: Buttons */
 .btn-black {
     border: none;
@@ -121,7 +117,7 @@
 .title-bold {
     display: flex;
     justify-content: center;
-    font-size: 120px;
+    font-size: 90px;
     font-weight: bold;
     color: var(--darkPink);
     text-transform: lowercase;
@@ -480,6 +476,12 @@
 
 .says-title {
     text-transform: lowercase;
+}
+
+#btn-arrow {
+    align-self: flex-end;
+    margin-top: -60px;
+    margin-bottom: 50px;
 }
 
 /* 
