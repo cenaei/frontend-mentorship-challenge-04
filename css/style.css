@@ -22,14 +22,20 @@
 */
 
 .title {
-    font-size: 54px;
+    color: var(--darkPink);
+    font-size: 92px;
     font-weight: bold;
     text-transform: lowercase;
-    padding: 2rem 0 3rem 0;
+    padding: 20px 0 30px 0;
 }
 
 .subtitle {
-
+    color: var(--darkGray);
+    font-size: 16px;
+    /* font-weight: bold; */
+    margin-top: -20px;
+    margin-bottom: 50px;
+    text-transform: initial;
 }
 
 .text {
@@ -187,12 +193,21 @@
     color: var(--darkPink);
 }
 
+#lenders-title {
+    font-size: 54px;
+    color: var(--darkPink);
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+
 .lenders-logos {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; /* Not Working!!! */
     height: 30px;
-    margin: 5px 0;
+    margin: 0 0 50px 0;
 }
 
 #chase {
@@ -281,14 +296,6 @@
 }
 
 /* Left */
-#about-us-title {
-    padding-top: 20px;
-    color: var(--darkPink);
-    text-transform: lowercase;
-    font-size: 92px;
-
-}
-
 #about-us-text-1 {
     color: var(--lightGray);
     font-size: 18px;
@@ -324,10 +331,63 @@
 
 /* 
 +------------------------------------+
-++
++              Products              +
 +------------------------------------+
 */
 
+#products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+.post-left {
+    padding-right: 20px;
+}
+
+.post-right {
+    padding-left: 20px;
+}
+
+#post-pic-1 {
+    background-image: url(../img/pictures/3-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 600px;
+}
+
+#post-pic-2 {
+    background-image: url(../img/pictures/3-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 600px;
+}
+
+.post-title {
+    color: var(--darkPink);
+    font-size: 55px;
+    text-transform: lowercase;
+    padding: 20px 0 30px 30px;
+}
+
+.post-text {
+    padding-left: 30px;
+    line-height: 30px;
+    color: var(--darkGray)
+}
+
+.post-btns {
+    padding-left: 40px;
+}
 
 /* 
 +------------------------------------+
