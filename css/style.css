@@ -33,7 +33,8 @@
 }
 
 .text {
-    font-size: 14px;
+    font-size: 16px;
+    color: #252525;
 }
 
 .buttom-spacer {
@@ -47,7 +48,7 @@
     color: white;
     font-size: 18px;
     padding: 2rem 6rem;
-    margin: 50px 50px 5px 0;
+    margin: 20px 50px 20px 0;
 }
 
 .btn-white {
@@ -56,7 +57,7 @@
     color: var(--darkPink);
     font-size: 18px;
     padding: 2rem 6rem;
-    margin: 50px 50px 5px 0;
+    margin: 20px 50px 20px 0;
 }
 /* End: Buttons */
 
@@ -189,7 +190,7 @@
 .lenders-logos {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly; /* Not Working!!! */
     height: 30px;
     margin: 5px 0;
 }
@@ -200,6 +201,7 @@
     background-repeat: no-repeat;
     background-size: 160px;
     width: 160px;
+    margin-right: 100px;
 }
 
 #asana {
@@ -209,6 +211,7 @@
     background-size: cover;
     background-size: 160px;
     width: 160px;
+    margin-right: 90px;
 }
 
 #google {
@@ -218,6 +221,7 @@
     background-size: cover;
     background-size: 160px;
     width: 160px;
+    margin-right: 90px;
 }
 
 #buzzfeed {
@@ -227,6 +231,7 @@
     background-size: cover;
     background-size: 160px;
     width: 160px;
+    margin-right: 90px;
 }
 
 #toggle {
@@ -236,6 +241,7 @@
     background-size: cover;
     background-size: 160px;
     width: 160px;
+    margin-right: 90px;
 }
 
 #walmart {
