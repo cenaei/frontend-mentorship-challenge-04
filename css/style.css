@@ -9,7 +9,7 @@
     --lightColor: #fff;
     --lightGray: #e5eef3;
     --darkGray: #515151;
-    --lightPink: #EFD1C2;
+    --lightPink: #FEF6F0;
     --darkPink: #463232;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .btn-white {
-    border: none;
+    border: solid 1px var(--darkPink);
     background-color: white;
     color: var(--darkPink);
     font-size: 14px;
@@ -173,9 +173,79 @@
 
 /* 
 +------------------------------------+
-++
++               LENDERS              +
 +------------------------------------+
 */
+
+#lenders {
+    background-color: var(--lightPink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: var(--darkPink);
+}
+
+.lenders-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    margin: 5px 0;
+}
+
+#chase {
+    background-image: url(../img/logos/chase.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 160px;
+    width: 160px;
+}
+
+#asana {
+    background-image: url(../img/logos/asana.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 160px;
+    width: 160px;
+}
+
+#google {
+    background-image: url(../img/logos/google.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 160px;
+    width: 160px;
+}
+
+#buzzfeed {
+    background-image: url(../img/logos/buzzfeed.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 160px;
+    width: 160px;
+}
+
+#toggle {
+    background-image: url(../img/logos/Toggle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 160px;
+    width: 160px;
+}
+
+#walmart {
+    background-image: url(../img/logos/walmart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 160px;
+    width: 160px;
+}
 
 /* 
 +------------------------------------+
