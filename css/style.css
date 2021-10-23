@@ -7,7 +7,7 @@
 /* Color Defination */
 :root {
     --lightColor: #fff;
-    --lightGray: #e5eef3;
+    --lightGray: #9A9A9A;
     --darkGray: #515151;
     --lightPink: #FEF6F0;
     --darkPink: #463232;
@@ -45,18 +45,18 @@
     border: none;
     background-color: var(--darkPink);
     color: white;
-    font-size: 14px;
-    padding: 1rem 4rem;
-    margin: 50px 50px 5px 50px;
+    font-size: 18px;
+    padding: 2rem 6rem;
+    margin: 50px 50px 5px 0;
 }
 
 .btn-white {
     border: solid 1px var(--darkPink);
     background-color: white;
     color: var(--darkPink);
-    font-size: 14px;
-    padding: 1rem 4rem;
-    margin: 50px 50px 5px 50px;
+    font-size: 18px;
+    padding: 2rem 6rem;
+    margin: 50px 50px 5px 0;
 }
 /* End: Buttons */
 
@@ -246,6 +246,89 @@
     background-size: 160px;
     width: 160px;
 }
+
+/* 
++------------------------------------+
++              about-us              +
++------------------------------------+
+*/
+
+#about-us {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 0 100px;
+    margin-top: 100px;
+}
+
+#about-us-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#about-us-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 30px;
+}
+
+/* Left */
+#about-us-title {
+    padding-top: 20px;
+    color: var(--darkPink);
+    text-transform: lowercase;
+    font-size: 92px;
+
+}
+
+#about-us-text-1 {
+    color: var(--lightGray);
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#about-us-text-2 {
+    color: var(--lightGray);
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+
+#about-us-picture-1 {
+    background-image: url(../img/pictures/2-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 600px;
+}
+
+#about-us-picture-2 {
+    background-image: url(../img/pictures/2-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 561px;
+}
+
+
+/* 
++------------------------------------+
+++
++------------------------------------+
+*/
+
+
+/* 
++------------------------------------+
+++
++------------------------------------+
+*/
+
 
 /* 
 +------------------------------------+
