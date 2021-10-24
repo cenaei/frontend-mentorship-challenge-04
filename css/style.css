@@ -11,6 +11,7 @@
     --darkGray: #515151;
     --lightPink: #FEF6F0;
     --darkPink: #463232;
+    --lightBlue: #235864;
 }
 
 /* Start Styling */
@@ -382,6 +383,32 @@
 
 .post-btns {
     padding-left: 40px;
+}
+
+.post-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.post-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.top-number {
+    color: var(--lightBlue);
+    border-bottom: solid 3px black;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.below-number {
+    color: var(--darkGray);
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 /* 
