@@ -482,6 +482,81 @@
     align-self: flex-end;
     margin-top: -60px;
     margin-bottom: 50px;
+    font-size: 22px;
+    height: 25px;
+}
+
+#customers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.stars {
+    font-size: 18px;
+}
+
+.customers-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--lightColor);
+    margin: 50px 20px;
+    padding: 50px 20px;
+}
+
+.comment {
+    margin: 50px 0;
+}
+
+.cmt-center {
+    margin: 50px 0;
+    color: var(--lightGray);
+}
+
+.customers-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#customers-pic-1 {
+    background-image: url(../img/avatar/jadi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#customers-pic-2 {
+    background-image: url(../img/avatar/dan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#customers-pic-3 {
+    background-image: url(../img/avatar/tony.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.customers-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+    font-size: 12px;
 }
 
 /* 
