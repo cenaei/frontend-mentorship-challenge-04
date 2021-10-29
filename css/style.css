@@ -21,6 +21,7 @@
   --lightPink: #fef6f0;
   --darkPink: #463232;
   --lightBlue: #235864;
+  --hoverBtnBlack: #463832;
 }
 
 /* Start Styling */
@@ -63,13 +64,24 @@
   margin: 20px 50px 20px 0;
 }
 
+.btn-black:hover {
+    cursor: pointer;
+    background-color: var(--hoverBtnBlack);
+}
+
 .btn-white {
-  border: solid 1px var(--darkPink);
-  background-color: white;
-  color: var(--darkPink);
-  font-size: 18px;
-  padding: 2rem 6rem;
-  margin: 20px 50px 20px 0;
+    border: solid 1px var(--darkPink);
+    background-color: white;
+    color: var(--darkPink);
+    font-size: 18px;
+    padding: 2rem 6rem;
+    margin: 20px 50px 20px 0;
+}
+
+.btn-white:hover {
+    cursor: pointer;
+    background-color: rgb(223, 223, 223);
+    color: var(--darkPink);
 }
 /* End: Buttons */
 
