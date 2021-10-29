@@ -520,7 +520,7 @@
   /* width: 400px; */
   /* height: 400px; */
   margin-right: 50px;
-  box-shadow: -15px 15px 0px 0px var(--pink) ;
+  box-shadow: -15px 15px var(--pink) ;
 }
 
 #we-prov-text {
